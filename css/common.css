@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #5B2386;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+        font-family: 'OTEnjoystoriesBA';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0;
+        color:#F5DF4D
+    }
+
+    section.description p {
+        display:inline-block;
+      font-size: 24px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      position: relative;
+    }
+    section.description p::after{
+        background:url("../img/left.png") no-repeat;
+        content:"";
+        display:block;
+        position: absolute;
+        left:-58px;
+        width:36px;
+        height:30px;
+        top:36px
+    }
+    section.description p::before{
+        background:url("../img/right.png") no-repeat;
+        content:"";
+        display:block;
+        position: absolute;
+        right:-58px;
+        width:36px;
+        height:30px;
+        top:36px
+    }
+    section.textBox{
+        position: relative;
+        margin:120px 0 142px;
+    }
+    section.form-area {
+        font-family: 'Gmarket Sans';
+        color: #000;
+        margin: 0 auto;
+        padding: 100px 0 0;
+        border-radius: 15px;
+    }
+
+    section.form-area form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .input-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      font-size:24px;
+      color:#fff;
+      margin-bottom:20px
+    }
+
+    input[type="text"] {
+      margin:0 20px;
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      box-sizing:border-box;
+      width:228px;
+      height:56px;
+      color:#BABCBE;
+    }
+    p.btn{
+        display:inline-block
+    }
+    .btn {
+      border-radius:12px;
+      border: none;
+      padding: 20px 50px;
+      font-weight: bold;
+      font-size: 24px;
+      color:#5B2386;
+      margin: 20px 10px 0;
+      cursor: pointer;
+      font-family: 'Gmarket Sans';
+    }
+    .yellow{
+      background: #FCEE21;
+
+    }
+    .icon{
+        vertical-align: bottom;
+        position: absolute;
+        bottom: -14px;
+    }
+input::placeholder {
+  text-align: center;
+  color:#BABCBE
+}
+    section.result {
+      margin-top: 50px;
+    }
+    .result p {
+  font-size: 0; /* 글자 사이 간격 제거용 트릭 */
+  text-align: center;
+  line-height: 1.2;
+}
+
+.result p br {
+  display: block;
+  margin: 16px 0;
+}
+
+.result p strong {
+    margin:0 12px;
+  font-size: 72px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.result p {
+  font-size: 24px; /* 다시 설정해서 small 글자 크기 적용 */
+}
+
+    section.result h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #ddd;
+    }
