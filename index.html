@@ -58,12 +58,18 @@
     <strong>화이팅!!♥♥♥</strong>
     <p>당신의 꿈을 응원합니다!</p>
     <img src="./img/likeCat.png" alt="사자"/>
-    <a href="#n">종료하고 진짜 훈련하러 가기 GO!GO!</a>
+    <a href="#n" class="closePopup">종료하고 진짜 훈련하러 가기 GO!GO!</a>
   </div>
 </div>
 <script>
   document.querySelector('.popupBtn').addEventListener('click', function () {
     document.querySelector('.popup').style.display = 'block';
+  });
+
+  // 팝업 닫기 (a 태그 클릭 시)
+  document.querySelector('.popup .closePopup').addEventListener('click', function (e) {
+    e.preventDefault(); // a 태그 기본 동작 방지
+    document.querySelector('.popup').style.display = 'none';
   });
 </script>
 </body>

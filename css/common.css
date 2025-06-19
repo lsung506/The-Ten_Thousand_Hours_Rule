@@ -174,7 +174,7 @@ input::placeholder {
     .popup strong,.popup p{font-family:'OTEnjoystoriesBA';color:#5B2386}
     .popup strong{font-weight:700;font-size:96px}
     .popup p{font-weight:700;font-size:36px}
-    .popup a{width:100%;max-width:508px;height:64px;line-height:64px;background:#FCEE21;color:#5B2386;font-family:'Gmarket Sans';font-size:24px;padding: 20px 0;border-radius:12px;font-weight:400;margin:60px auto 0;display:block}
+    .popup a{width:100%;max-width:508px;height:64px;line-height:64px;background:#FCEE21;color:#5B2386;font-family:'Gmarket Sans';font-size:24px;padding: 20px 0;border-radius:12px;font-weight:400;margin:60px auto 0;display:block;font-weight:bold;}
 .line-break {
   display: none;
 }
