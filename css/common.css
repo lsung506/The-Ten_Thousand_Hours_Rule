@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+*{margin:0;padding:0}
     body {
       margin: 0;
       font-family: 'Arial', sans-serif;
@@ -27,15 +28,17 @@
         font-size: 36px;
         line-height: 100%;
         letter-spacing: 0;
-        color:#F5DF4D
+        color:#F5DF4D;
+        margin:52px 0 80px
     }
 
     section.description p {
         display:inline-block;
-      font-size: 24px;
+      font-size: 18px;
       line-height: 1.5;
       margin-bottom: 30px;
       position: relative;
+      font-weight:400;
     }
     section.description p::after{
         background:url("../img/left.png") no-repeat;
@@ -56,6 +59,10 @@
         width:36px;
         height:30px;
         top:36px
+    }
+    section.description p b{
+      font-weight:700;
+      font-size:24px
     }
     section.textBox{
         position: relative;
@@ -85,6 +92,7 @@
       color:#fff;
       margin-bottom:20px
     }
+    .input-group br{display:none}
 
     input[type="text"] {
       margin:0 20px;
@@ -155,7 +163,47 @@ input::placeholder {
     }
 
     footer {
-      margin-top: 40px;
+      margin-top: 120px;
       font-size: 0.9em;
       color: #ddd;
     }
+    footer img{
+      margin-bottom:20px
+    }
+    .popup{display:none;width:calc(100% - 40px);max-width:800px;height:100%;height:100%;max-height:816px;background:#fff;border-radius:20px;box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.15);box-sizing: border-box;padding:80px 146px;position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 1000;display: none;box-sizing: border-box;}
+    .popup strong,.popup p{font-family:'OTEnjoystoriesBA';color:#5B2386}
+    .popup strong{font-weight:700;font-size:96px}
+    .popup p{font-weight:700;font-size:36px}
+    .popup a{width:100%;max-width:508px;height:64px;line-height:64px;background:#FCEE21;color:#5B2386;font-family:'Gmarket Sans';font-size:24px;padding: 20px 0;border-radius:12px;font-weight:400;margin:60px auto 0;display:block}
+.line-break {
+  display: none;
+}
+     @media (max-width: 768px) {
+      .wrap{padding:40px 15px}
+      header{padding:0 0 32px}
+      header h1 {width:278px;text-align:center;margin:0 auto}
+      header h1 img{width:100%}
+      header p{font-size:22px;margin:32px 0 0}
+
+      section.description p{font-size:14px}
+      .input-group{font-size:14px;margin-bottom:12px}
+      .line-break {display: block;width: 100%;height: 0;margin-bottom:12px}
+      input[type="text"]{width:150px;height:38px;margin:0 8px}
+      p.btn{padding:20px 38px;width:240px;margin:0;box-sizing:border-box;font-size:14px}
+      .icon{width:43px}
+      .result p{font-size:12px}
+      .result p strong{font-size:24px}
+      section.textBox{margin:68px 0 68px}
+      footer {font-size:9px;margin-top:60px}
+      footer img{width:125px}
+      section.form-area{padding:30px 0 0}
+      .btnWrap{margin-top:52px}
+      .btnWrap .btn{font-size:14px;padding:16px 24px;margin:0}
+      .btnWrap .btn:nth-child(1){margin-right:8px}
+      section.description p::after{width:20px;height:18px;background-size:20px;left:-30px}
+      section.description p::before{width:20px;height:18px;background-size:20px;right: -30px;}
+
+      .popup strong{font-size:64px}
+      .popup p{font-size:36px}
+    }
+    
