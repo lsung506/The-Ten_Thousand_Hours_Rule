@@ -12,7 +12,7 @@
 ![PC Screen](./img/pcImg.png)
 
 ### 📱 모바일 화면
-![Mobile Screen](./img/moImg.png)
+![Mobile Screen](./img/moimg.png)
 
 ---
 
