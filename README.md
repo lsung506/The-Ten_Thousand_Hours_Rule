@@ -29,7 +29,7 @@
 1. 이 저장소를 클론하거나 ZIP 파일로 다운로드
 2. `index.html` 파일을 브라우저에서 열면 실행 완료!
 3. 또는 아래 링크에서 바로 확인:  
-🔗 [배포 링크](https://lsung506.github.io/the-ten_thousand_hours_rule/)
+🔗 [배포 링크](https://lsung506.github.io/The-Ten_Thousand_Hours_Rule/)
 
 ---
 
